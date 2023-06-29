@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')();
 // Prompt the user to enter a number
 const input = prompt('Please enter a number: ');
 // Parse the user's input to an integer
-let number = parseInt(input);
+const number = parseInt(input);
 // Loop through numbers from 1 to the user's input
 for (let i = 1; i <= number; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
